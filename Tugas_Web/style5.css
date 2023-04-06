@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eae7b1;
+}
+.flex-container{
+    display: flex;
+    background: #eae7b1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    text-align: center;
+}
+.flex-header{
+    background: #3c6255;
+    width: 100%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #3c6255;
+    font-size: 17px;
+    color: #eae7b1;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    background-color: #a6bb8d;
+    color: black;
+}
+.blog{
+    margin-bottom: 20px;
+    background-color: #eae7b1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    width: 80%;
+    border: 20px solid #a6bb8d;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+.date{
+    color: #61876e;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.paragraph{
+    border-left: 5px solid #61876e;
+    padding-left: 5px;
+}
+h2{
+    font-size: 2.0rem;
+    color: #3c6255;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+h3{
+    font-size: 1.5rem;
+    color: #3c6255;
+    font-family: sans-serif;
+}
+p{
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: large;
+}
+h4{
+    font-family: sans-serif;
+    font-size: larger;
+}
+h6{
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: large;
+}
+.flex-footer{
+    height: 50px;
+    width: 100%;
+    background-color: #61876e;
+}
+.flex-footer p{
+    padding-top: 15px;
+    color: #f5f3c1;
+    text-align: center;
+}
+
+
+
